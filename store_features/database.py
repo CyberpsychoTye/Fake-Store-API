@@ -6,3 +6,9 @@ products = {
     5: {    'name': 'cap',       'price': 14.99,    'category': 'accessories'}
 }
 product_ids = [1,2,3,4,5]
+users = {
+    "manager": {
+        "username": "manager",
+        "password": "Bo$$manofomni"
+    }
+}
