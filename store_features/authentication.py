@@ -1,6 +1,7 @@
 from typing import Annotated
 from fastapi import Depends, APIRouter, Response
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from store_features import database as db
 
 auth_scheme = OAuth2PasswordBearer(tokenUrl="login")
 router = APIRouter()
